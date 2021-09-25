@@ -1,0 +1,255 @@
+/* ============ Default Css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear_fix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.fix_width{
+    width: 90%;
+    margin: auto;
+}
+
+/* ========Header-section */
+
+.header_section{
+    background-color: #22c3a3;
+    padding: 22px 0;
+}
+.header_left{
+    width: 30%;
+    float: left;
+    color: #dfebe8;
+    font-size: 18px;
+}
+.header_right{
+    width: 70%;
+    float: right;
+}
+.header_right ul{
+    text-align: right;
+    list-style: none;
+}
+.header_right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header_right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #dfebe8;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+/* =====Background Img */
+
+.background_img{
+    background: url(https://i.ibb.co/nbqsNtZ/header-bg01.jpg);
+    background-size: cover;
+    padding: 200px 0;
+    background-position: 0 -150px;
+    background-repeat: no-repeat;
+}
+.bg_heading h1{
+    color: #fff;
+    font-size: 58px;
+    margin-bottom: 19px;
+}
+.bg_heading p{
+    color: #cef2eb;
+    margin-bottom: 47px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bg_heading a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    border: 1px solid #cef2eb;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+/* =====Service-section */
+
+.banner{}
+.banner h2 {
+    color: #555555;
+    font-size: 34px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.banner p {
+    color: #919191;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+/* =======Service_section */
+
+.service_item {
+    width: 19%;
+    float: left;
+    margin: auto;
+    margin-left: 72px;
+    margin-bottom: 150px;
+}
+.service_item span {
+    color: #0dbf9b;
+    font-size: 40px;
+}
+.service_item h3 {
+    color: #666;
+    font-size: 22px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.service_item p {
+    width: 87%;
+    margin: auto;
+    color: #787878;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* =========AbouttUs-section */
+
+.about_us{
+    border-top: 2px solid #0dbf9b;
+}
+.about_us h2 {
+    color: #555555;
+    font-size: 34px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.about_us p {
+    color: #919191;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 100px;
+    font-family: sans-serif;
+}
+
+/* ===========About-details */
+
+.about_details {
+    margin-top: -40px;
+}
+
+.about_left{
+    float: left;
+    width: 44%;
+}
+.about_left img {
+    height: 435px;
+}
+
+.about_right{
+    float: right;
+    width: 52%;
+    font-family: sans-serif;
+    color: #6f6f6f;
+}
+.about_right h3 {
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.about_right p {
+    margin-top: 10px;
+    line-height: 24px;
+    color: #787878;
+    font-family: sans-serif;
+}
+
+/* ======== ContactUs-section */
+
+.contactUs{
+    height: 215px;
+    background-color: #f6f6f6;
+}
+.contactUs h2 {
+    color: #555555;
+    font-size: 34px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    position: relative;
+    top: 70px;
+}
+.contactUs p {
+    color: #919191;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+}
+
+/* ========Icon */
+
+.contact_icon{
+    background-color: #f6f6f6;
+    padding-bottom: 65px;
+}
+.icon_item {
+    width: 13%;
+    float: left;
+    margin-left: 151px;
+    text-align: center;
+    position: relative;
+    left: 190px;
+}
+.icon_item span {
+    color: #0dbf9b;
+    font-size: 20px;
+}
+.icon_item p {
+    color: #858585;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.icon_item .location{
+    color: #858585;
+    margin-top: 4px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+/* ======== Footer-section */
+
+.footer{
+    background-color: #0dbf9b;
+    padding: 20px 0;
+}
+.footer span{
+    font-size: 20px;
+    margin-left: 15px;
+    color: white;
+}
+
+.footer2{
+  background-color: #222222;
+  padding: 20px;
+  font-family: sans-serif;  
+  color: #5a5858;
+}
